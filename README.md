@@ -71,7 +71,8 @@ Mỗi site dùng 2 ASA:
 - Áp dụng ACL tại Distribution Switch
 - VLAN Guest: chỉ được phép DHCP, DNS và truy cập Internet; chặn toàn bộ kết nối đến mạng nội bộ
   
-  <img width="498" height="169" alt="image" src="https://github.com/user-attachments/assets/cd204b92-a06f-4dfd-9d26-19dc6e043742" />
+  <img width="498" height="169" alt="Screenshot 2026-03-19 051909" src="https://github.com/user-attachments/assets/e037c785-9e94-4546-b005-5559d857aa89" />
+
 
 
 ### VPN
@@ -81,18 +82,21 @@ Mỗi site dùng 2 ASA:
 ### Internet Simulation
 - Giả lập Internet với 1 PC và 1 DNS Server (8.8.8.8)
   
-  <img width="874" height="432" alt="image" src="https://github.com/user-attachments/assets/e3d4dee9-98ea-4fc0-b8ee-704cf15629b5" />
+  <img width="874" height="432" alt="Screenshot 2026-03-19 062735" src="https://github.com/user-attachments/assets/fefdba31-0543-4558-9563-93fff7f1a08d" />
+
 
 - DMZ chứa Web Server và External DNS Server
   
-  <img width="873" height="444" alt="image" src="https://github.com/user-attachments/assets/b442a6e9-ec22-4f5a-8b76-201318afeb4d" />
+  <img width="873" height="444" alt="Screenshot 2026-03-19 062704" src="https://github.com/user-attachments/assets/a0819a52-50e6-48d8-9313-2eda167b3abb" />
+
 
 
 ---
 
 ## Topology
 
-<img width="1424" height="699" alt="image" src="https://github.com/user-attachments/assets/b9e02e74-e495-4a69-8661-750996626391" />
+  <img width="1424" height="699" alt="Screenshot 2026-03-19 063005" src="https://github.com/user-attachments/assets/d2d48065-c893-4714-9e6c-e88923675f47" />
+
 
 
 ---
@@ -101,19 +105,23 @@ Mỗi site dùng 2 ASA:
 
 - Tracert từ VLAN 30 (IT) đến các VLAN khác trong trụ sở.
   
-  <img width="490" height="293" alt="image" src="https://github.com/user-attachments/assets/55c91c94-064f-4a71-892b-422d7ee2583a" />
+  <img width="490" height="293" alt="Screenshot 2026-03-19 053832" src="https://github.com/user-attachments/assets/41dd8fa1-273d-4972-bac6-721a299c7d11" />
+
 
 - Tracert từ VLAN 30 đến VLAN 20 (IT-Branch) qua VPN
   
-  <img width="492" height="216" alt="image" src="https://github.com/user-attachments/assets/6a730911-ee6d-4735-8c83-4b703672d63a" />
+  <img width="492" height="216" alt="Screenshot 2026-03-19 054625" src="https://github.com/user-attachments/assets/51726e1e-e804-422b-8b39-380c75e948f6" />
+
 
 - ACL Guest – chặn truy cập nội bộ
   
-  <img width="631" height="624" alt="image" src="https://github.com/user-attachments/assets/1599fc0b-3adb-4232-b59d-9f41c6627b88" />
+  <img width="631" height="624" alt="Screenshot 2026-03-19 061027" src="https://github.com/user-attachments/assets/75c54ebc-1d96-41e1-9992-44a79ec0c3e7" />
+
 
 - PC Public truy cập Web Server qua NAT: PC gửi DNS query đến 8.8.8.8, được forward đến External DNS Server để resolve và cache lại. PC dùng IP nhận được để kết nối. (External DNS Server phải dùng bản ghi Nat IP).
   
-  <img width="869" height="336" alt="image" src="https://github.com/user-attachments/assets/843cfce4-6549-4c75-8f10-bdb651eb02b9" />
+  <img width="869" height="336" alt="Screenshot 2026-03-19 062516" src="https://github.com/user-attachments/assets/b5b775a8-8d5a-4f55-878f-6e50d00386e6" />
+
 
 
 ---
