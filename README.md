@@ -112,6 +112,11 @@ Mỗi site dùng 2 ASA:
   
   <img width="492" height="216" alt="Screenshot 2026-03-19 054625" src="https://github.com/user-attachments/assets/51726e1e-e804-422b-8b39-380c75e948f6" />
 
+  Gói tin được mã hóa:
+  
+  <img width="630" height="387" alt="image" src="https://github.com/user-attachments/assets/6baae233-9a53-407b-8ad7-247b9c090f3c" />
+
+
 
 - ACL Guest – chặn truy cập nội bộ
   
@@ -122,6 +127,12 @@ Mỗi site dùng 2 ASA:
   
   <img width="869" height="336" alt="Screenshot 2026-03-19 062516" src="https://github.com/user-attachments/assets/b5b775a8-8d5a-4f55-878f-6e50d00386e6" />
 
+
+- Test Internet
+
+  <img width="865" height="335" alt="image" src="https://github.com/user-attachments/assets/55e84014-772b-4549-b90a-ba5c0d2b297d" />
+
+  <img width="623" height="379" alt="image" src="https://github.com/user-attachments/assets/f598f7e7-9e9e-4341-b1a6-f59611794a77" />
 
 
 ---
